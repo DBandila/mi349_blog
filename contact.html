@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Audio</title>
+    <title>Game Audio Contact Page</title>
 </head>
 <body>
     <header>
@@ -17,6 +17,32 @@
             </ul>
         </nav>
     </header>
-    
+     <div class="Contact"> 
+      <form name="Contact me"method="post"action="index.html"netlify>
+        <p> <label>Name</label><br>
+          <input type="text" name="Name">
+        </p>
+        <p>
+          <label>Email</label><br>
+          <input type="email" name="Email">
+        </p>
+        <p>
+          <label for="contactreason">Reason for Contact </label><br>
+          <select name="contactreason" id="contactreason">
+          <option value="saying hi">Saying hi</option>
+          <option value="looking for a contractor"> Looking for a contractor</option>
+          <option value="interested in an interview">Interested in an interview</option>
+          </select>
+        </p>
+        <p>
+          <label for="opencomment">open comment</label><br>
+          <textarea name="opencomment" id="opencomment" rows="4" cols="50">
+            </textarea>
+        </p>
+        <p>
+          <input type="submit">
+        </p>
+      </form>
+    </div>
 </body>
 </html>
