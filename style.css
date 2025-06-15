@@ -66,10 +66,9 @@ header{
     
 }
 nav{
-    width:100%;
     padding-top: 20px;
     padding-right: 10px;
-    text-align: left;
+    text-align: right;
     font-size: large;   
 }
 table{
