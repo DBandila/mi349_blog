@@ -30,8 +30,10 @@ input{
     border-radius: 25px;
 }
 h1{
+    width: 50%;
     font-size: 3em;
     padding-left: 10px;
+    text-align: center;
     color: #fff;
 }
 h2{
@@ -63,7 +65,7 @@ header{
     
 }
 nav{
-    width: 25%;
+    width:100%;
     padding-top: 20px;
     padding-right: 10px;
     text-align: right;
