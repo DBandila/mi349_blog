@@ -62,14 +62,17 @@ header{
     line-height: .8cm;
     position: sticky;
     top: 0;
-    z-index: 2;
-    
+    z-index: 2;    
 }
 nav{
     padding-top: 20px;
     padding-right: 10px;
-    text-align: right;
+    text-align: left;
     font-size: large;   
+}
+ul{
+    text-align: right;
+    list-style-position: inside;
 }
 table{
     text-align: center;
